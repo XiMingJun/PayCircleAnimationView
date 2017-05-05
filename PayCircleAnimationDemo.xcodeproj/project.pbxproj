@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C953B7851EBC2C9C00B62AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B7841EBC2C9C00B62AD1 /* main.m */; };
+		C953B7881EBC2C9C00B62AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B7871EBC2C9C00B62AD1 /* AppDelegate.m */; };
+		C953B78B1EBC2C9C00B62AD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B78A1EBC2C9C00B62AD1 /* ViewController.m */; };
+		C953B78E1EBC2C9C00B62AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C953B78C1EBC2C9C00B62AD1 /* Main.storyboard */; };
+		C953B7901EBC2C9C00B62AD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953B78F1EBC2C9C00B62AD1 /* Assets.xcassets */; };
+		C953B7931EBC2C9C00B62AD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C953B7911EBC2C9C00B62AD1 /* LaunchScreen.storyboard */; };
+		C953B79E1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B79D1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.m */; };
+		C953B7A91EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B7A81EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.m */; };
+		C953B7B81EBC2CB400B62AD1 /* PayCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C953B7B71EBC2CB400B62AD1 /* PayCircleAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C953B79A1EBC2C9C00B62AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C953B7781EBC2C9C00B62AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C953B77F1EBC2C9C00B62AD1;
+			remoteInfo = PayCircleAnimationDemo;
+		};
+		C953B7A51EBC2C9C00B62AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C953B7781EBC2C9C00B62AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C953B77F1EBC2C9C00B62AD1;
+			remoteInfo = PayCircleAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C953B7801EBC2C9C00B62AD1 /* PayCircleAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCircleAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953B7841EBC2C9C00B62AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C953B7861EBC2C9C00B62AD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C953B7871EBC2C9C00B62AD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C953B7891EBC2C9C00B62AD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C953B78A1EBC2C9C00B62AD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C953B78D1EBC2C9C00B62AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C953B78F1EBC2C9C00B62AD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C953B7921EBC2C9C00B62AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C953B7941EBC2C9C00B62AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C953B7991EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCircleAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953B79D1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCircleAnimationDemoTests.m; sourceTree = "<group>"; };
+		C953B79F1EBC2C9C00B62AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C953B7A41EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCircleAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C953B7A81EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayCircleAnimationDemoUITests.m; sourceTree = "<group>"; };
+		C953B7AA1EBC2C9C00B62AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C953B7B61EBC2CB400B62AD1 /* PayCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayCircleAnimationView.h; sourceTree = "<group>"; };
+		C953B7B71EBC2CB400B62AD1 /* PayCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayCircleAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C953B77D1EBC2C9C00B62AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7961EBC2C9C00B62AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7A11EBC2C9C00B62AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C953B7771EBC2C9C00B62AD1 = {
+			isa = PBXGroup;
+			children = (
+				C953B7821EBC2C9C00B62AD1 /* PayCircleAnimationDemo */,
+				C953B79C1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests */,
+				C953B7A71EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests */,
+				C953B7811EBC2C9C00B62AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C953B7811EBC2C9C00B62AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C953B7801EBC2C9C00B62AD1 /* PayCircleAnimationDemo.app */,
+				C953B7991EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.xctest */,
+				C953B7A41EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C953B7821EBC2C9C00B62AD1 /* PayCircleAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C953B7B91EBC2D1300B62AD1 /* PayCircleAnimation */,
+				C953B7861EBC2C9C00B62AD1 /* AppDelegate.h */,
+				C953B7871EBC2C9C00B62AD1 /* AppDelegate.m */,
+				C953B7891EBC2C9C00B62AD1 /* ViewController.h */,
+				C953B78A1EBC2C9C00B62AD1 /* ViewController.m */,
+				C953B78C1EBC2C9C00B62AD1 /* Main.storyboard */,
+				C953B78F1EBC2C9C00B62AD1 /* Assets.xcassets */,
+				C953B7911EBC2C9C00B62AD1 /* LaunchScreen.storyboard */,
+				C953B7941EBC2C9C00B62AD1 /* Info.plist */,
+				C953B7831EBC2C9C00B62AD1 /* Supporting Files */,
+			);
+			path = PayCircleAnimationDemo;
+			sourceTree = "<group>";
+		};
+		C953B7831EBC2C9C00B62AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C953B7841EBC2C9C00B62AD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C953B79C1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C953B79D1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.m */,
+				C953B79F1EBC2C9C00B62AD1 /* Info.plist */,
+			);
+			path = PayCircleAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		C953B7A71EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C953B7A81EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.m */,
+				C953B7AA1EBC2C9C00B62AD1 /* Info.plist */,
+			);
+			path = PayCircleAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		C953B7B91EBC2D1300B62AD1 /* PayCircleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C953B7B61EBC2CB400B62AD1 /* PayCircleAnimationView.h */,
+				C953B7B71EBC2CB400B62AD1 /* PayCircleAnimationView.m */,
+			);
+			name = PayCircleAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C953B77F1EBC2C9C00B62AD1 /* PayCircleAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C953B7AD1EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemo" */;
+			buildPhases = (
+				C953B77C1EBC2C9C00B62AD1 /* Sources */,
+				C953B77D1EBC2C9C00B62AD1 /* Frameworks */,
+				C953B77E1EBC2C9C00B62AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayCircleAnimationDemo;
+			productName = PayCircleAnimationDemo;
+			productReference = C953B7801EBC2C9C00B62AD1 /* PayCircleAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C953B7981EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C953B7B01EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemoTests" */;
+			buildPhases = (
+				C953B7951EBC2C9C00B62AD1 /* Sources */,
+				C953B7961EBC2C9C00B62AD1 /* Frameworks */,
+				C953B7971EBC2C9C00B62AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C953B79B1EBC2C9C00B62AD1 /* PBXTargetDependency */,
+			);
+			name = PayCircleAnimationDemoTests;
+			productName = PayCircleAnimationDemoTests;
+			productReference = C953B7991EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C953B7A31EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C953B7B31EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemoUITests" */;
+			buildPhases = (
+				C953B7A01EBC2C9C00B62AD1 /* Sources */,
+				C953B7A11EBC2C9C00B62AD1 /* Frameworks */,
+				C953B7A21EBC2C9C00B62AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C953B7A61EBC2C9C00B62AD1 /* PBXTargetDependency */,
+			);
+			name = PayCircleAnimationDemoUITests;
+			productName = PayCircleAnimationDemoUITests;
+			productReference = C953B7A41EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C953B7781EBC2C9C00B62AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.qhfax;
+				TargetAttributes = {
+					C953B77F1EBC2C9C00B62AD1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JHA85WF3AT;
+						ProvisioningStyle = Automatic;
+					};
+					C953B7981EBC2C9C00B62AD1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JHA85WF3AT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C953B77F1EBC2C9C00B62AD1;
+					};
+					C953B7A31EBC2C9C00B62AD1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JHA85WF3AT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C953B77F1EBC2C9C00B62AD1;
+					};
+				};
+			};
+			buildConfigurationList = C953B77B1EBC2C9C00B62AD1 /* Build configuration list for PBXProject "PayCircleAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C953B7771EBC2C9C00B62AD1;
+			productRefGroup = C953B7811EBC2C9C00B62AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C953B77F1EBC2C9C00B62AD1 /* PayCircleAnimationDemo */,
+				C953B7981EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests */,
+				C953B7A31EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C953B77E1EBC2C9C00B62AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953B7931EBC2C9C00B62AD1 /* LaunchScreen.storyboard in Resources */,
+				C953B7901EBC2C9C00B62AD1 /* Assets.xcassets in Resources */,
+				C953B78E1EBC2C9C00B62AD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7971EBC2C9C00B62AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7A21EBC2C9C00B62AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C953B77C1EBC2C9C00B62AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953B78B1EBC2C9C00B62AD1 /* ViewController.m in Sources */,
+				C953B7881EBC2C9C00B62AD1 /* AppDelegate.m in Sources */,
+				C953B7B81EBC2CB400B62AD1 /* PayCircleAnimationView.m in Sources */,
+				C953B7851EBC2C9C00B62AD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7951EBC2C9C00B62AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953B79E1EBC2C9C00B62AD1 /* PayCircleAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C953B7A01EBC2C9C00B62AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C953B7A91EBC2C9C00B62AD1 /* PayCircleAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C953B79B1EBC2C9C00B62AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C953B77F1EBC2C9C00B62AD1 /* PayCircleAnimationDemo */;
+			targetProxy = C953B79A1EBC2C9C00B62AD1 /* PBXContainerItemProxy */;
+		};
+		C953B7A61EBC2C9C00B62AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C953B77F1EBC2C9C00B62AD1 /* PayCircleAnimationDemo */;
+			targetProxy = C953B7A51EBC2C9C00B62AD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C953B78C1EBC2C9C00B62AD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953B78D1EBC2C9C00B62AD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C953B7911EBC2C9C00B62AD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C953B7921EBC2C9C00B62AD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C953B7AB1EBC2C9C00B62AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C953B7AC1EBC2C9C00B62AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C953B7AE1EBC2C9C00B62AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C953B7AF1EBC2C9C00B62AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C953B7B11EBC2C9C00B62AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCircleAnimationDemo.app/PayCircleAnimationDemo";
+			};
+			name = Debug;
+		};
+		C953B7B21EBC2C9C00B62AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCircleAnimationDemo.app/PayCircleAnimationDemo";
+			};
+			name = Release;
+		};
+		C953B7B41EBC2C9C00B62AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayCircleAnimationDemo;
+			};
+			name = Debug;
+		};
+		C953B7B51EBC2C9C00B62AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JHA85WF3AT;
+				INFOPLIST_FILE = PayCircleAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wangjian.PayCircleAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayCircleAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C953B77B1EBC2C9C00B62AD1 /* Build configuration list for PBXProject "PayCircleAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953B7AB1EBC2C9C00B62AD1 /* Debug */,
+				C953B7AC1EBC2C9C00B62AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C953B7AD1EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953B7AE1EBC2C9C00B62AD1 /* Debug */,
+				C953B7AF1EBC2C9C00B62AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C953B7B01EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953B7B11EBC2C9C00B62AD1 /* Debug */,
+				C953B7B21EBC2C9C00B62AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C953B7B31EBC2C9C00B62AD1 /* Build configuration list for PBXNativeTarget "PayCircleAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C953B7B41EBC2C9C00B62AD1 /* Debug */,
+				C953B7B51EBC2C9C00B62AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C953B7781EBC2C9C00B62AD1 /* Project object */;
+}
