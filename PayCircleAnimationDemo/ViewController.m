@@ -27,13 +27,17 @@
     _circleView = [[PayCircleAnimationView alloc] initWithFrame:CGRectMake((self.view.frame.size.width - circleWidth)/2, 50, circleWidth, circleHeight)];
     _circleView.lineColor = [UIColor blueColor];
     [self.view addSubview:_circleView];
+
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [super touchesBegan:touches withEvent:event];
     [_circleView startAnimation];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [_circleView startResultAnimation];
     });
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
